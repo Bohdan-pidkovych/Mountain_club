@@ -1,16 +1,87 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://assets.htmlacademy.ru/content/skills/1/css/outline.css">
-    <title>Главная страница туристического клуба «MOUNTAIN»</title>
-  </head>
-  <body>
-    <header class="main-header">
-      <nav class="main-nav"></nav>
-    </header>
-    <main></main>
-    <footer class="main-footer"></footer>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://assets.htmlacademy.ru/content/skills/1/css/outline.css">
+  <title>Главная страница туристического клуба «MOUNTAIN»</title>
+</head>
+<body>
+  <header class="main-header">
+    <nav class="main-nav">
+      <a class="logo">
+        <img src="img/logo.svg" width="" height="" alt="Логотип туристического клуба">
+      </a>
+      <ul class="site-navigation">
+        <li class="site-navigation-item">
+          <a href="#">О нас</a>
+        </li>
+        <li class="site-navigation-item">
+          <a href="#">Расписание</a>
+        </li>
+        <li class="site-navigation-item">
+          <a href="#">Стоимость</a>
+        </li>
+        <li class="site-navigation-item">
+          <a href="#">Отзывы</a>
+        </li>
+      </ul>
+      <a href="tel:88007773325">8 (800) 777-33-25</a>
+    </nav>
+    <a href="#">Поиск</a>
+    <a href="#">Личный кабинет пользователя</a>
+  </header>
+  <main>
+    <h1>Эверест</h1>
+    <img src="img/everest.jpg" width="1366" height="650" alt="Эверест">
+    <a href="card.html">Подробнее</a>
+    <section class="climbing-tours">
+      <h2>Туры с восхождением на вершины мира</h2>
+      <p>Мы являемся экспертами в организации альпинистских туров для опытных альпинистов и для новичков. Вы можете доверить нам полную организацию вашего приключения от А до Я и быть уверенными в качестве и безопасности восхождения.</p>
+      <p>Наша компания предоставляет все необходимое: консультацию по выбору тура, перелет, визу, бронирование проживания, питание, оборудование, необходимое для восхождения, опытных гидов, полное сопровождение.</p>
+      <img src="img/map.png" width="798" height="375" alt="Карта туров">
+    </section>
+    <section class="popular-tours">
+      <h2>Популярные туры</h2>
+      <ul class="tours">
+        <li class="tours-item">
+          <p>Россия</p>
+          <h3><a href="card.html">Белуха</a></h3>
+          <p><span>4506 м</span> <span>12 дней</span> <span>от 45000 руб.</span></p>
+          <p>Средний уровень</p>
+        </li>
+        <li class="tours-item">
+          <p>Россия</p>
+          <h3><a href="card.html">Эльбрус</a></h3>
+          <p><span>5642 м</span> <span>10 дней</span> <span>от 25000 руб.</span></p>
+          <p>Средний уровень</p>
+        </li>
+        <li class="tours-item">
+          <p>Танзания</p>
+          <h3><a href="card.html">Килиманджаро</a></h3>
+          <p><span>5895 м</span> <span>4 дня</span> <span>от 55000 руб.</span></p>
+          <p>Простой уровень</p>
+        </li>
+      </ul>
+      <button type="button">Назад</button>
+      <button type="button">Вперёд</button>
+    </section>
+    <section class="prices">
+      <h2 class="visually-hidden">Стоимость туров</h2>
+    </section>
+    <section class="blog">
+      <h2>Блог</h2>
+      <article class="blog-article">
+        <h3>Как подготовиться к первому восхождению на вершину</h3>
+      </article>
+    </section>
+    <section class="feedback">
+      <h2>Нужна помощь с выбором тура?</h2>
+    </section>
+    <section class="contacts">
+      <h2>Контакты</h2>
+    </section>
+  </main>
+  <footer class="main-footer"></footer>
+</body>
 </html>
